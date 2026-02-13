@@ -3,10 +3,13 @@ p {
     color: #ff0000;
 }
 
+p:hover {
+    color: #21df17;
+}
+
 /* class selector */
 .green {
     color: #008000;
-
 }
 
 /* id selector */
@@ -14,19 +17,30 @@ p {
     color: #6d0e68;
 }
 
+.box-container {
+    border: 3px solid black;
+}
+
+.box-container> :nth-child(n) {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 3px solid #000000;
+    margin-bottom: 5px;
+    box-shadow: 60px 10px 50px #f60505;
+}
+
 /* box class */
-.default-box {
+/* .default-box {
     width: 100px;
     height: 100px;
     padding: 10px;
     border: 3px solid black;
     margin-bottom: 5px;
-}
+} */
 
 #box-1 {
     background-color: #008000;
-    width: 300px;
-    height: 300px;
 }
 
 #box-2 {
@@ -39,4 +53,5 @@ p {
 
 #box-4 {
     background-color: #d8d625;
+
 }
