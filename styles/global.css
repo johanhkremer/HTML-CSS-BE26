@@ -1,0 +1,17 @@
+:root {
+    --bittersweet: rgb(237, 106, 90);
+    --bittersweet-50: rgb(237 106 90 / 50%);
+    --bittersweet-25: rgb(237 106 90 / 25%);
+    --ash-gray: rgb(155, 193, 188);
+    --ash-gray-50: rgb(155 193 188 / 50%);
+    --ash-gray-25: rgb(155 193 188 / 25%);
+    --verdigris: rgb(92, 164, 169);
+    --verdigris-50: rgb(92 164 169 / 50%);
+    --verdigris-25: rgb(92 164 169 / 25%);
+    --alabaster: rgb(230, 235, 224);
+    --alabaster-50: rgb(230 235 224 / 50%);
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
